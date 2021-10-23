@@ -243,7 +243,7 @@ img {
   margin-bottom: 50px;
 }
 .name-team {
-  padding: 32px 59px 32px 60px;
+  padding: 30px 32px 30px 32px;
 }
 .name {
   text-align: center;
@@ -265,7 +265,6 @@ img {
 
 /* Футер */
 
-
 .footer {
   background: var(--dark-background);
   padding-bottom: 60px;
@@ -275,8 +274,6 @@ img {
 .logo-studio-footer {
   color: var(--white-color);
 }
-
-
 
 .address {
   font-weight: normal;
@@ -291,9 +288,10 @@ img {
   color: var(--footer-address-color);
   text-decoration: none;
   display: block;
-
 }
-.menu-contacts-footer:not(:last-child){margin: 9px 0px;}
+.menu-contacts-footer:not(:last-child) {
+  margin: 9px 0px;
+}
 
 .menu-contacts-footer:hover,
 .menu-contacts-footer:focus {
@@ -305,15 +303,11 @@ img {
 .filters {
   display: flex;
   justify-content: center;
-  margin-bottom: 44px;
+  margin-bottom: 50px;
 }
 
 .filters-sublist:not(:last-child) {
   margin-right: 8px;
-}
-
-.portfolio-section {
-  display: flex;
 }
 
 .project {
@@ -328,19 +322,15 @@ img {
 .project-sublist {
   margin-right: 30px;
   background: var(--white-color);
-  box-sizing: border-box;
-  height: 370px;
+  margin-bottom: 30px;
 }
 .project-name {
   padding: 20px 24px;
   border-right: 1px solid var(--border-color);
-  border-bottom: 1px  solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
   border-left: 1px solid var(--border-color);
+}
 
-}
-.project-sublist {
-  margin-bottom: 30px;
-}
 .project-sublist:nth-child(3n) {
   margin-right: 0px;
 }
